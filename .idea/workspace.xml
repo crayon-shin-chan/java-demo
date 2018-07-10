@@ -4,7 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/czy/demo/reflect/method/Test.java" line="14" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a28968-2849-421d-8d10-2819b09bba8f" name="Default" comment="">
+    <list default="true" id="b0a28968-2849-421d-8d10-2819b09bba8f" name="Default" comment="调整目录">
       <change afterPath="$PROJECT_DIR$/src/czy/demo/reflect/ipackage/Test.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/czy/demo/runtime/MemoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -59,6 +59,11 @@
         <option value="$PROJECT_DIR$/src/czy/demo/runtime/ExitHookTest.java" />
         <option value="$PROJECT_DIR$/src/czy/demo/runtime/HaltHookTest.java" />
         <option value="$PROJECT_DIR$/src/czy/demo/runtime/Exec1Test.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/thread/SimpleTest.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/thread/ConcurrentTest.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/thread/ProformanceTest.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/thread/SleepTest.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/thread/WaitTest.java" />
       </list>
     </option>
   </component>
@@ -85,10 +90,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="469" />
-    <option name="y" value="15" />
+    <option name="x" value="658" />
+    <option name="y" value="82" />
     <option name="width" value="1865" />
-    <option name="height" value="1015" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -123,6 +128,14 @@
               <item name="czy" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="czy" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -152,58 +165,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExecTest">
-    <configuration name="ExecTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.runtime.ExecTest" />
+  <component name="RunManager" selected="Application.SleepTest">
+    <configuration name="ConcurrentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.thread.ConcurrentTest" />
       <module name="java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="czy.demo.runtime.*" />
+          <option name="PATTERN" value="czy.demo.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ExitHookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.runtime.ExitHookTest" />
+    <configuration name="ProformanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.thread.ProformanceTest" />
       <module name="java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="czy.demo.runtime.*" />
+          <option name="PATTERN" value="czy.demo.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ExitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.runtime.ExitTest" />
+    <configuration name="SimpleString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.string.SimpleString" />
       <module name="java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="czy.demo.runtime.*" />
+          <option name="PATTERN" value="czy.demo.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HaltHookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.runtime.HaltHookTest" />
+    <configuration name="SimpleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.thread.SimpleTest" />
       <module name="java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="czy.demo.runtime.*" />
+          <option name="PATTERN" value="czy.demo.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HaltTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.runtime.HaltTest" />
+    <configuration name="SleepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.thread.SleepTest" />
       <module name="java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="czy.demo.runtime.*" />
+          <option name="PATTERN" value="czy.demo.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,19 +263,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ExitTest" />
-      <item itemvalue="Application.HaltTest" />
-      <item itemvalue="Application.ExitHookTest" />
-      <item itemvalue="Application.HaltHookTest" />
-      <item itemvalue="Application.ExecTest" />
+      <item itemvalue="Application.SimpleString" />
+      <item itemvalue="Application.SimpleTest" />
+      <item itemvalue="Application.ConcurrentTest" />
+      <item itemvalue="Application.ProformanceTest" />
+      <item itemvalue="Application.SleepTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExecTest" />
-        <item itemvalue="Application.HaltHookTest" />
-        <item itemvalue="Application.ExitHookTest" />
-        <item itemvalue="Application.HaltTest" />
-        <item itemvalue="Application.ExitTest" />
+        <item itemvalue="Application.SleepTest" />
+        <item itemvalue="Application.ProformanceTest" />
+        <item itemvalue="Application.ConcurrentTest" />
+        <item itemvalue="Application.SimpleTest" />
+        <item itemvalue="Application.SimpleString" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +294,7 @@
       <workItem from="1531130389886" duration="2036000" />
       <workItem from="1531184228897" duration="111000" />
       <workItem from="1531184437933" duration="555000" />
-      <workItem from="1531193789605" duration="11146000" />
+      <workItem from="1531193789605" duration="14607000" />
     </task>
     <task id="LOCAL-00001" summary="修改标识符测试类">
       <created>1531116760030</created>
@@ -315,21 +328,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23486000" />
+    <option name="totallyTimeSpent" value="26947000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="561" y="9" width="1865" height="1015" extended-state="0" />
+    <frame x="658" y="82" width="1865" height="1013" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49860412" weight="0.3270142" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49860412" weight="0.3262159" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5041876" side_tool="true" weight="0.33451536" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.26862302" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4958124" visible="true" weight="0.34834123" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4958124" visible="true" weight="0.347981" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31753555" />
       <window_info id="Capture Tool" order="6" />
@@ -399,76 +412,14 @@
     <MESSAGE value="添加字段、方法反射测试类" />
     <MESSAGE value="添加注解测试类，包含类、字段、构造函数、方法、包、参数、局部变量的注解" />
     <MESSAGE value="添加运行时测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加运行时测试" />
+    <MESSAGE value="调整目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整目录" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/czy/demo/reflect/field/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/czy/demo/reflect/method/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/SuppressWarnings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/annotation/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="76" column="35" lean-forward="true" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/annotation/Retention.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/annotation/Documented.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/czy/demo/reflect/annotation/simple/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="3444" column="24" selection-start-line="3444" selection-start-column="24" selection-end-line="3444" selection-end-column="24" />
-          <folding>
-            <element signature="e#139547#139548#0" expanded="true" />
-            <element signature="e#139624#139625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/annotation/Annotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-734">
@@ -799,6 +750,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/string/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/string/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/string/SimpleString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/thread/SimpleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/thread/ProformanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/thread/ConcurrentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/thread/SleepTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/thread/WaitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
