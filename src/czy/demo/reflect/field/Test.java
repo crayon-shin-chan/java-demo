@@ -14,8 +14,10 @@ public class Test {
         this.age = age;
     }
 
-    public static void main(String[] args) throws IllegalAccessException{
+    public static void main(String[] args) throws IllegalAccessException,NoSuchFieldException{
         Test test = new Test("张三",34);
+
+        println("获取声明字段，即属于此类的字段，包括private字段：");
         /* 获取类本身声明的字段，包括私有字段，不包括继承父类的字段 */
         Field[] declare = Test.class.getDeclaredFields();
         for(Field f:declare){
@@ -27,6 +29,18 @@ public class Test {
             println("当前字段在test对象中的值为："+f.get(test));
             println("");
         }
+
+        println("获取类字段，即包括父类字段，但不包括private字段：");
+        Field[] fields = Test.class.getFields();
+        for(Field f:fields){
+            println("当前字段名称为："+f.getName());
+        }
+        Field name = Test.class.getDeclaredField("name");
+        Field age = Test.class.getField("age");
+        name.set(test,"李四");
+        age.set(test,231233);
+        System.out.println("修改后name字段为："+test.name);
+        System.out.println("修改后age字段为："+test.age);
     }
 
     public static void println(String s){
