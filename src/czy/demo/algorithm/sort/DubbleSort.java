@@ -1,4 +1,4 @@
-package czy.demo.sort;
+package czy.demo.algorithm.sort;
 
 import java.util.Random;
 

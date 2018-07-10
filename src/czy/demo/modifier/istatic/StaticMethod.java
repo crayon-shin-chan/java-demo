@@ -1,6 +1,4 @@
-package czy.demo.istatic;
-
-import sun.net.www.content.text.plain;
+package czy.demo.modifier.istatic;
 
 public class StaticMethod {
 	

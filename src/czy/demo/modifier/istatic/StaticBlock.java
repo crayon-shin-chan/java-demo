@@ -1,6 +1,4 @@
-package czy.demo.istatic;
-
-import com.sun.jndi.url.corbaname.corbanameURLContextFactory;
+package czy.demo.modifier.istatic;
 
 public class StaticBlock {
 	

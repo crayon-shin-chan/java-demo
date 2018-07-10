@@ -1,4 +1,4 @@
-package czy.demo.integer;
+package czy.demo.number;
 
 public class IntegerTest {
 

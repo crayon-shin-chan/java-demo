@@ -1,8 +1,4 @@
-package czy.demo.overload;
-
-import czy.demo.overload.Animal;
-import czy.demo.overload.Dog;
-import czy.demo.overload.Pig;
+package czy.demo.grammar.overload;
 
 /*参数为对象时，首选最接近的类型
  * 如Dog，如果Dog参数类型方法不存在，则会选Animal参数类型方法

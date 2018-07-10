@@ -1,4 +1,4 @@
-package czy.demo.overload;
+package czy.demo.grammar.overload;
 
 public class ConstructorOverload {
 	

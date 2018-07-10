@@ -1,4 +1,4 @@
-package czy.demo.iabstract;
+package czy.demo.modifier.iabstract;
 
 import sun.security.action.GetBooleanAction;
 

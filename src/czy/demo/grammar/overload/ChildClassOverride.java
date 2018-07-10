@@ -1,7 +1,4 @@
-package czy.demo.overload;
-
-import czy.demo.overload.Animal;
-import czy.demo.overload.Dog;
+package czy.demo.grammar.overload;
 
 public class ChildClassOverride {
 

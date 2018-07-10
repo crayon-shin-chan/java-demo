@@ -1,6 +1,4 @@
-package czy.demo.iabstract;
-
-import czy.demo.iabstract.AbstractClass;
+package czy.demo.modifier.iabstract;
 
 /*抽象方法可以被继承*/
 public class ExistClass extends AbstractClass{

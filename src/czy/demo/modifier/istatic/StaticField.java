@@ -1,4 +1,4 @@
-package czy.demo.istatic;
+package czy.demo.modifier.istatic;
 
 public class StaticField {
 	
