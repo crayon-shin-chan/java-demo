@@ -2,7 +2,7 @@ package czy.demo.date;
 
 import java.util.Date;
 
-public class Simple {
+public class DateTest {
 
 	public static void main(String[] args) {
 
