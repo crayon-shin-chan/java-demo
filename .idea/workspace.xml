@@ -4,14 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/czy/demo/reflect/method/Test.java" line="14" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a28968-2849-421d-8d10-2819b09bba8f" name="Default" comment="调整目录">
-      <change afterPath="$PROJECT_DIR$/src/czy/demo/date/CalendarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/czy/demo/date/DateFormatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/czy/demo/date/SimpleDateFormatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/czy/demo/thread/SynchronizeTest.java" afterDir="false" />
+    <list default="true" id="b0a28968-2849-421d-8d10-2819b09bba8f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/czy/demo/number/IntTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/czy/demo/date/Simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/czy/demo/date/DateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/czy/demo/thread/WaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/czy/demo/thread/WaitTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,15 +18,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="SimpleDateFormatTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/czy/demo/date/SimpleDateFormatTest.java">
+      <file leaf-file-name="IntTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/czy/demo/number/IntTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="399">
+              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,6 +83,7 @@
         <option value="$PROJECT_DIR$/src/czy/demo/date/CalendarTest.java" />
         <option value="$PROJECT_DIR$/src/czy/demo/date/DateFormatTest.java" />
         <option value="$PROJECT_DIR$/src/czy/demo/date/SimpleDateFormatTest.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/number/IntTest.java" />
       </list>
     </option>
   </component>
@@ -115,8 +110,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="377" />
-    <option name="y" value="16" />
+    <option name="x" value="321" />
+    <option name="y" value="5" />
     <option name="width" value="1755" />
     <option name="height" value="1011" />
   </component>
@@ -160,7 +155,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="czy" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="date" type="462c0819:PsiDirectoryNode" />
+              <item name="number" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleDateFormatTest">
+  <component name="RunManager" selected="Application.IntTest">
     <configuration name="CalendarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="czy.demo.date.CalendarTest" />
       <module name="java-demo" />
@@ -225,6 +220,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="IntTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.number.IntTest" />
+      <module name="java-demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="czy.demo.number.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="SimpleDateFormatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="czy.demo.date.SimpleDateFormatTest" />
       <module name="java-demo" />
@@ -232,17 +238,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="czy.demo.date.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="WaitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.thread.WaitTest" />
-      <module name="java-demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="czy.demo.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,18 +285,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.DateTest" />
-      <item itemvalue="Application.WaitTest" />
       <item itemvalue="Application.CalendarTest" />
       <item itemvalue="Application.DateFormatTest" />
       <item itemvalue="Application.SimpleDateFormatTest" />
+      <item itemvalue="Application.IntTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntTest" />
         <item itemvalue="Application.SimpleDateFormatTest" />
         <item itemvalue="Application.DateFormatTest" />
         <item itemvalue="Application.CalendarTest" />
         <item itemvalue="Application.DateTest" />
-        <item itemvalue="Application.WaitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +317,7 @@
       <workItem from="1531184437933" duration="555000" />
       <workItem from="1531193789605" duration="14648000" />
       <workItem from="1531220711108" duration="425000" />
-      <workItem from="1531270520251" duration="10862000" />
+      <workItem from="1531270520251" duration="11471000" />
     </task>
     <task id="LOCAL-00001" summary="修改标识符测试类">
       <created>1531116760030</created>
@@ -352,14 +347,21 @@
       <option name="project" value="LOCAL" />
       <updated>1531212677496</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="继续线程测试，添加日期测试">
+      <created>1531294016704</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531294016704</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38275000" />
+    <option name="totallyTimeSpent" value="38884000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="377" y="16" width="1755" height="1011" extended-state="0" />
+    <frame x="321" y="5" width="1755" height="1011" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -442,27 +444,14 @@
     <MESSAGE value="添加注解测试类，包含类、字段、构造函数、方法、包、参数、局部变量的注解" />
     <MESSAGE value="添加运行时测试" />
     <MESSAGE value="调整目录" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整目录" />
+    <MESSAGE value="继续线程测试，添加日期测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="继续线程测试，添加日期测试" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Error.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-682">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Readable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -830,6 +819,24 @@
             <element signature="imports" expanded="true" />
             <element signature="e#834#835#0" expanded="true" />
             <element signature="e#871#872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/number/IntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/number/IntTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
           </folding>
         </state>
       </provider>
