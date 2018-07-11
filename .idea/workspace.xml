@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0a28968-2849-421d-8d10-2819b09bba8f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/czy/demo/crypto/md5/Md5Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/czy/demo/encode/utf8/UTF8Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/czy/demo/crypto/hash/HmacTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/czy/demo/crypto/hash/Sha1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/czy/demo/crypto/hash/Sha256Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/czy/demo/crypto/md5/Md5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/czy/demo/crypto/hash/Md5Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +20,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Sha256Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/czy/demo/crypto/hash/Sha256Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HmacTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/czy/demo/crypto/hash/HmacTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,6 +102,10 @@
         <option value="$PROJECT_DIR$/src/czy/demo/number/IntTest.java" />
         <option value="$PROJECT_DIR$/src/czy/demo/encode/utf8/UTF8Test.java" />
         <option value="$PROJECT_DIR$/src/czy/demo/crypto/md5/Md5Test.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/crypto/hash/Md5Test.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/crypto/hash/Sha1Test.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/crypto/hash/Sha256Test.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/crypto/hash/HmacTest.java" />
       </list>
     </option>
   </component>
@@ -99,8 +132,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="165" />
-    <option name="y" value="32" />
+    <option name="x" value="311" />
+    <option name="y" value="41" />
     <option name="width" value="1755" />
     <option name="height" value="1011" />
   </component>
@@ -146,6 +179,15 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="crypto" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="czy" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="hash" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -175,47 +217,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Md5Test">
-    <configuration name="DateFormatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.date.DateFormatTest" />
+  <component name="RunManager" selected="Application.HmacTest">
+    <configuration name="HmacTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.crypto.hash.HmacTest" />
       <module name="java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="czy.demo.date.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="IntTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.number.IntTest" />
-      <module name="java-demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="czy.demo.number.*" />
+          <option name="PATTERN" value="czy.demo.crypto.hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Md5Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.crypto.md5.Md5Test" />
+      <option name="MAIN_CLASS_NAME" value="czy.demo.crypto.hash.Md5Test" />
       <module name="java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="czy.demo.crypto.md5.*" />
+          <option name="PATTERN" value="czy.demo.crypto.hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SimpleDateFormatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.date.SimpleDateFormatTest" />
+    <configuration name="Sha1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.crypto.hash.Sha1Test" />
       <module name="java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="czy.demo.date.*" />
+          <option name="PATTERN" value="czy.demo.crypto.hash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Sha256Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.crypto.hash.Sha256Test" />
+      <module name="java-demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="czy.demo.crypto.hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,19 +315,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DateFormatTest" />
-      <item itemvalue="Application.SimpleDateFormatTest" />
-      <item itemvalue="Application.IntTest" />
       <item itemvalue="Application.UTF8Test" />
       <item itemvalue="Application.Md5Test" />
+      <item itemvalue="Application.Sha1Test" />
+      <item itemvalue="Application.Sha256Test" />
+      <item itemvalue="Application.HmacTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HmacTest" />
+        <item itemvalue="Application.Sha256Test" />
         <item itemvalue="Application.Md5Test" />
+        <item itemvalue="Application.Sha1Test" />
         <item itemvalue="Application.UTF8Test" />
-        <item itemvalue="Application.IntTest" />
-        <item itemvalue="Application.SimpleDateFormatTest" />
-        <item itemvalue="Application.DateFormatTest" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +348,7 @@
       <workItem from="1531184437933" duration="555000" />
       <workItem from="1531193789605" duration="14648000" />
       <workItem from="1531220711108" duration="425000" />
-      <workItem from="1531270520251" duration="15495000" />
+      <workItem from="1531270520251" duration="16989000" />
     </task>
     <task id="LOCAL-00001" summary="修改标识符测试类">
       <created>1531116760030</created>
@@ -350,14 +392,22 @@
       <option name="project" value="LOCAL" />
       <updated>1531294697768</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加Md5测试类">
+      <created>1531300499055</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1531300499055</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42908000" />
+    <option name="totallyTimeSpent" value="44402000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="165" y="32" width="1755" height="1011" extended-state="0" />
+    <frame x="311" y="41" width="1755" height="1011" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -369,11 +419,11 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.26862302" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4958124" visible="true" weight="0.36190477" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4958124" visible="true" weight="0.36190477" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31753555" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24985129" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24985129" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -441,41 +491,14 @@
     <MESSAGE value="调整目录" />
     <MESSAGE value="继续线程测试，添加日期测试" />
     <MESSAGE value="添加整数计算测试类" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加整数计算测试类" />
+    <MESSAGE value="添加Md5测试类" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加Md5测试类" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/ReflectAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="96" column="20" lean-forward="true" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7253">
-          <caret line="455" column="6" lean-forward="true" selection-start-line="455" selection-start-column="6" selection-end-line="455" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/Executable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/AccessibleObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/AnnotatedElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-470">
@@ -827,21 +850,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/security/MessageDigest.java">
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/crypto/hash/Md5Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="429" column="33" lean-forward="true" selection-start-line="429" selection-start-column="33" selection-end-line="429" selection-end-column="33" />
+        <state relative-caret-position="171">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/czy/demo/crypto/md5/Md5Test.java">
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/crypto/hash/Sha1Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/security/MessageDigest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627">
+          <caret line="536" lean-forward="true" selection-start-line="536" selection-end-line="536" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/crypto/hash/Sha256Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/jce.jar!/javax/crypto/Mac.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="282" column="5" lean-forward="true" selection-start-line="282" selection-start-column="5" selection-end-line="282" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/crypto/hash/HmacTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
           </folding>
         </state>
       </provider>

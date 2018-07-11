@@ -1,4 +1,4 @@
-package czy.demo.crypto.md5;
+package czy.demo.crypto.hash;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
