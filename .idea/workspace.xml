@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0a28968-2849-421d-8d10-2819b09bba8f" name="Default" comment="添加各种哈希算法测试类">
+      <change afterPath="$PROJECT_DIR$/src/czy/demo/reflect/method/BridgeMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/czy/demo/reflect/method/Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/czy/demo/reflect/method/GenericImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-demo/czy/demo/algorithm/sort/DubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-demo/czy/demo/grammar/overload/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-demo/czy/demo/grammar/overload/ChildClassOverride.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-demo/czy/demo/grammar/overload/ConstructorOverload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-demo/czy/demo/grammar/overload/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-demo/czy/demo/grammar/overload/MethodOverload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-demo/czy/demo/grammar/overload/ObjectArgsMethodOverload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-demo/czy/demo/grammar/overload/Pig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-demo/czy/demo/modifier/iabstract/AbstractClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-demo/czy/demo/modifier/iabstract/ExistClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-demo/czy/demo/modifier/istatic/StaticBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-demo/czy/demo/modifier/istatic/StaticField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-demo/czy/demo/modifier/istatic/StaticMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-demo/czy/demo/number/IntegerTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,14 +19,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="BridgeMethodTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/czy/demo/reflect/method/BridgeMethodTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+              <folding>
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Generic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/czy/demo/reflect/method/Generic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -90,6 +102,9 @@
         <option value="$PROJECT_DIR$/src/czy/demo/crypto/hash/Sha256Test.java" />
         <option value="$PROJECT_DIR$/src/czy/demo/crypto/hash/HmacTest.java" />
         <option value="$PROJECT_DIR$/src/czy/demo/crypto/rsa/RSATest.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/reflect/method/Generic.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/reflect/method/GenericImpl.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/reflect/method/BridgeMethodTest.java" />
       </list>
     </option>
   </component>
@@ -116,8 +131,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="604" />
-    <option name="y" value="99" />
+    <option name="x" value="1390" />
+    <option name="y" value="442" />
     <option name="width" value="2448" />
     <option name="height" value="1655" />
   </component>
@@ -129,8 +144,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,14 +154,40 @@
               <item name="Java-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java-demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/czy/桌面/Java-demo/src/czy/demo/crypto/hash/Sha1Test.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -169,20 +211,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RSATest">
-    <configuration name="HmacTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.crypto.hash.HmacTest" />
-      <module name="java-demo" />
+  <component name="RunManager" selected="Application.BridgeMethodTest">
+    <configuration name="BridgeMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.reflect.method.BridgeMethodTest" />
+      <module name="Java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="czy.demo.crypto.hash.*" />
+          <option name="PATTERN" value="czy.demo.reflect.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Md5Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.crypto.hash.Md5Test" />
+    <configuration name="HmacTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.crypto.hash.HmacTest" />
       <module name="java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -203,8 +245,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Sha1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.crypto.hash.Sha1Test" />
+    <configuration name="Sha256Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.crypto.hash.Sha256Test" />
       <module name="java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -214,13 +256,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Sha256Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.crypto.hash.Sha256Test" />
-      <module name="java-demo" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.reflect.method.Test" />
+      <module name="Java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="czy.demo.crypto.hash.*" />
+          <option name="PATTERN" value="czy.demo.reflect.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,19 +309,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Md5Test" />
-      <item itemvalue="Application.Sha1Test" />
       <item itemvalue="Application.Sha256Test" />
       <item itemvalue="Application.HmacTest" />
       <item itemvalue="Application.RSATest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.BridgeMethodTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BridgeMethodTest" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.RSATest" />
         <item itemvalue="Application.HmacTest" />
         <item itemvalue="Application.Sha256Test" />
-        <item itemvalue="Application.Md5Test" />
-        <item itemvalue="Application.Sha1Test" />
       </list>
     </recent_temporary>
   </component>
@@ -301,6 +343,7 @@
       <workItem from="1531193789605" duration="14648000" />
       <workItem from="1531220711108" duration="425000" />
       <workItem from="1531270520251" duration="19896000" />
+      <workItem from="1531640762424" duration="1638000" />
     </task>
     <task id="LOCAL-00001" summary="修改标识符测试类">
       <created>1531116760030</created>
@@ -365,74 +408,63 @@
       <option name="project" value="LOCAL" />
       <updated>1531315220157</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="删除out目录">
+      <created>1531315307487</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1531315307487</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47497000" />
+    <option name="totallyTimeSpent" value="49286000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="604" y="99" width="2448" height="1655" extended-state="1" />
+    <frame x="1390" y="442" width="2448" height="1655" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50041735" side_tool="true" weight="0.32939634" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939634" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49958265" visible="true" weight="0.32939634" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26043406" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4958124" visible="true" weight="0.36190477" />
-      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49833056" weight="0.3261155" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.504591" side_tool="true" visible="true" weight="0.36154854" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.26862302" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.495409" visible="true" weight="0.36154854" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49958265" weight="0.09186352" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31753555" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25208682" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" weight="0.3299356" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24980545" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31753555" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5041876" side_tool="true" weight="0.33451536" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24985129" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info id="Web" order="7" side_tool="true" weight="0.3299356" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.26862302" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49860412" weight="0.32619047" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4958124" visible="true" weight="0.34834123" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4958124" visible="true" weight="0.34834123" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24980545" />
       <window_info id="UI Designer" order="4" />
@@ -457,9 +489,8 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,23 +510,14 @@
     <MESSAGE value="添加Md5测试类" />
     <MESSAGE value="添加各种哈希算法测试类" />
     <MESSAGE value="修改目录" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改目录" />
+    <MESSAGE value="删除out目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除out目录" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/sun/reflect/MethodAccessor.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Terminator.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/ReflectPermission.java" />
-    <entry file="file://$PROJECT_DIR$/src/czy/demo/runtime/MemoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/czy/demo/runtime/CpuTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -673,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/czy/demo/crypto/hash/Sha1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/security/MessageDigest.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/jce.jar!/javax/crypto/Mac.class" />
     <entry file="file://$PROJECT_DIR$/src/czy/demo/crypto/hash/HmacTest.java">
@@ -711,12 +726,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/crypto/hash/Sha1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/reflect/method/Generic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/reflect/method/GenericImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/reflect/method/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/reflect/method/BridgeMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding>
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Java-demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
