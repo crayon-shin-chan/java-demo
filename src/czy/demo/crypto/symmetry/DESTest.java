@@ -1,4 +1,4 @@
-package czy.demo.crypto.des;
+package czy.demo.crypto.symmetry;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
