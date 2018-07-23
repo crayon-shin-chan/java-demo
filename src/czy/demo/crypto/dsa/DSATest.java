@@ -3,7 +3,11 @@ package czy.demo.crypto.rsa;
 import java.security.*;
 import java.util.Base64;
 
-/* DSA非对称加密方式的秘钥算法与签名算法都是DSA */
+/**
+ * 注意：这里明文、密文，都是字节数组，字符串只是表现形式而已
+ * 一般由于二进制字符串不好看，都是使用BASE64对字符串进行编码
+ * DSA非对称加密方式的秘钥算法与签名算法都是DSA
+ */
 public class DSATest {
 
     private static byte[] content = "我是被签名的内容".getBytes();
@@ -20,12 +24,16 @@ public class DSATest {
         try{
             /* 密钥对生成器 */
             KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("DSA");
+
             /* 初始化秘钥位数，1024或2048 */
             keyPairGenerator.initialize(1024);
+
             /* 生成的密钥对 */
             KeyPair keyPair = keyPairGenerator.generateKeyPair();
+
             /* 生成的公钥 */
             public_key = keyPair.getPublic();
+
             /* 生成的私钥 */
             private_key = keyPair.getPrivate();
 

@@ -2,12 +2,12 @@ package czy.demo.encode.base64;
 
 import java.util.Base64;
 
-/* base64编码有三种类型,分别为
+/**
+ * base64编码有三种类型,分别为
  * 基本类型: basic,生成的字符串里面只有+
- * url类型: url,生成的字符串所有里面没有+,全是_
+ * url类型: url,生成的字符串所有里面没有+,全是-
  * mime类型: mime,与basic一样
- *
-  * */
+ */
 public class BASE64Test {
 
     private static byte[] bytes = "这是base64测试字符串,呵呵".getBytes();
