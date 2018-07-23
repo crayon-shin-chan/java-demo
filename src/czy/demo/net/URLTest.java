@@ -10,7 +10,7 @@ import java.util.Map;
 public class URLTest {
 
     public static void main(String[] args)throws Exception{
-        get("http://baidu.com");
+        get("https://www.baidu.com/");
 
 
     }
