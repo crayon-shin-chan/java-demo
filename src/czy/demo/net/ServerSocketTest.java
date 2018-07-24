@@ -20,14 +20,16 @@ public class ServerSocketTest {
                     Socket socket = server.accept();
                     out.println("接收到连接："+socket.getRemoteSocketAddress());
                     InputStream in = socket.getInputStream();
+                    OutputStream ou = socket.getOutputStream();
                     byte[] buffer = new byte[1048];
                     int length;
                     while((length = in.read(buffer))>0){
                         out.println(new String(buffer,0,length));
+                        ou.write(buffer,0,length);
                     }
                     out.println("关闭套接字");
                     in.close();
-
+                    ou.close();
                     socket.close();
                 }
             }catch(Exception ex){
