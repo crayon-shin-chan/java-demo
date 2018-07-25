@@ -5,8 +5,8 @@ import java.util.Date;
 public class InterruptTest {
 
     public static void main(String[] args)throws Exception{
-        generalInterupt();
-        //sleepInterrupt();
+        //generalInterupt();
+        sleepInterrupt();
     }
 
     /**
@@ -32,7 +32,7 @@ public class InterruptTest {
     }
 
     /**
-     * 线程在阻塞状态(sleep,wait)，此时接收到中断请求，会抛出中断异常
+     * 线程在阻塞状态(sleep,wait)，此时接收到中断请求，会抛出中断异常并且清除中断标记
      */
     public static void sleepInterrupt()throws Exception{
         Thread thread = new Thread(()->{
@@ -42,6 +42,8 @@ public class InterruptTest {
                     Thread.sleep(1000);
                 }
             }catch(InterruptedException ex){
+                /* 由于中断标记被清除，所以这里为true */
+                System.out.println("线程的中断标识为："+Thread.interrupted());
                 System.out.println("线程发生中断异常，准备退出："+ex);
             }
         });

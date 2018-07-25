@@ -28,7 +28,9 @@ public class ServerSocketTest {
                         ou.write(buffer,0,length);
                     }
                     out.println("关闭套接字");
+                    ou.write("连接关闭1".getBytes());
                     in.close();
+                    ou.write("连接关闭2".getBytes());
                     ou.close();
                     socket.close();
                 }
