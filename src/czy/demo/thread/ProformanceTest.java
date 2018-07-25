@@ -6,8 +6,8 @@ public class ProformanceTest {
 
         int length = 1000;
 
-        putong(length);
-        //thread(length);
+        //putong(length);
+        thread(length);
 
     }
 
