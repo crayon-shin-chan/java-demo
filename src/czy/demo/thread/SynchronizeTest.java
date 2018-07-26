@@ -2,6 +2,9 @@ package czy.demo.thread;
 
 import java.util.Date;
 
+/**
+ * 并发测试，分别测试了：不加锁、方法加锁、方法块类加锁、方法块对象加锁几种情况
+ */
 public class SynchronizeTest {
 
     static Integer num = 0 ;

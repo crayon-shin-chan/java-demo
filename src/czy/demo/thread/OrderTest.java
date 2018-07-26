@@ -1,6 +1,6 @@
 package czy.demo.thread;
 
-public class ConcurrentTest {
+public class OrderTest {
 
     public static void main(String[] args){
 
@@ -14,4 +14,5 @@ public class ConcurrentTest {
             }).start();
         }
     }
+
 }
