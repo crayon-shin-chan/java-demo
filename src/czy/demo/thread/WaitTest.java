@@ -1,6 +1,5 @@
 package czy.demo.thread;
 
-import java.util.Date;
 import java.util.Random;
 
 public class WaitTest {
