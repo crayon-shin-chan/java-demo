@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 public class StringOperationTest {
 
+    /**
+     * 1.在java语言中，汉字也是作为字符处理的，但是一般一个汉字对应两个编码但愿
+     */
     public static void main(String[] args)throws Exception{
         String str1 = "abcdefgh";
 
@@ -46,6 +49,29 @@ public class StringOperationTest {
         System.out.println((int)'是');
         System.out.println(str1.codePointAt(1));
         System.out.println("我是大侦探".codePointAt(1));
+
+        /* 连接操作 */
+        System.out.println(str1.concat("123"));
+        System.out.println("123".concat(str1));
+
+        /* 下标操作 */
+        System.out.println(str1.indexOf('a'));
+        System.out.println(str1.indexOf("bc"));
+        System.out.println(str1.indexOf("n"));
+        System.out.println("我是大侦探".indexOf("我"));
+        System.out.println("我是大侦探".indexOf("哦"));
+        System.out.println("abcdedcba".indexOf("a"));
+        System.out.println("abcdedcba".lastIndexOf("a"));
+
+        /* 开头、结尾判断 */
+        System.out.println(str1.startsWith("abc"));
+        System.out.println(str1.startsWith("def"));
+        System.out.println(str1.endsWith("fgh"));
+        System.out.println(str1.endsWith("abc"));
+
+        /* 将堆中字符串对象转换为常量池对象 */
+        System.out.println(new String("abc")=="abc");
+        System.out.println(new String("abc").intern()=="abc");
     }
 
 }
