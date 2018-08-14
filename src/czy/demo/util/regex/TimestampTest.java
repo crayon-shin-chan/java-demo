@@ -18,6 +18,13 @@ public class TimestampTest {
         for(int i=1;i<=m.groupCount();i++){
             System.out.println(m.group(i));
         }
+        int year = Integer.parseInt(m.group(1));
+        int month = Integer.parseInt(m.group(2));
+        int day = Integer.parseInt(m.group(3));
+        int hour = Integer.parseInt(m.group(4));
+        int minute = Integer.parseInt(m.group(5));
+        int second = Integer.parseInt(m.group(6));
+        Date c = new Date(year,month,day,hour,minute,second);
     }
 
 }
