@@ -1,4 +1,4 @@
-package czy.demo.script;
+package czy.demo.script.manager;
 
 
 import javax.script.ScriptEngineFactory;
@@ -39,6 +39,7 @@ public class ManagerTest {
         for(String s:factory.getMimeTypes()){
             System.out.println("    "+s);
         }
+        System.out.println("多线程执行效果: "+factory.getParameter("THREADING"));
     }
 
 }
