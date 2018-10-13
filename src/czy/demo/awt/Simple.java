@@ -9,6 +9,7 @@ import java.io.File;
 public class Simple {
 
     public static void main(String[] args){
+
         EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
@@ -18,6 +19,7 @@ public class Simple {
                 frame.setVisible(true);
             }
         });
+
     }
 
 
@@ -32,6 +34,7 @@ public class Simple {
         private static final int height = 400;
 
         public ImageViewerFrame(){
+
             setSize(width,height);
 
             label = new JLabel();
@@ -40,21 +43,29 @@ public class Simple {
             chooser = new JFileChooser();
             chooser.setCurrentDirectory(new File("."));
 
+            /* 菜单栏,属于JFrame,一对一 */
             JMenuBar menuBar = new JMenuBar();
             setJMenuBar(menuBar);
 
-            JMenu menu = new JMenu();
+            /* 菜单,属于菜单栏,多对一 */
+            JMenu menu = new JMenu("File");
             menuBar.add(menu);
 
+            /* 菜单项,属于菜单,多对一,为下拉项 */
             JMenuItem openItem = new JMenuItem("Open");
             menu.add(openItem);
 
+            /* 菜单项事件监听器 */
             openItem.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
+                    /* 打开文件选择器,并且阻塞等待选择文件 */
                     int result = chooser.showOpenDialog(null);
+                    /* 如果执行了选择 */
                     if(result == JFileChooser.APPROVE_OPTION){
+                        /* 获取选择文件路径 */
                         String name = chooser.getSelectedFile().getPath();
+                        /* 设置为标签图标 */
                         label.setIcon(new ImageIcon(name));
                     }
                 }
