@@ -1,7 +1,6 @@
 package czy.demo.reflect.proxy;
 
-import czy.demo.reflect.proxy.Person;
-
+/* 实现类,在调用处理器中使用其方法 */
 public class PersonImpl implements Person{
 	
     public void say(String content){

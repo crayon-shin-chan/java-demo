@@ -5,10 +5,19 @@ import java.lang.reflect.Method;
 
 import czy.demo.reflect.proxy.PersonImpl;
 
+/* 调用处理器,创建代理对象时使用 */
 public class PersonInvocationHandler implements InvocationHandler {
 
 	private Person target = new PersonImpl();
 
+	/**
+	 * 处理代理对象方法调用时使用
+	 * @param proxy:代理对象
+	 * @param method:当前调用方法
+	 * @param args:参数数组
+	 * @return:方法调用返回值
+	 * @throws Throwable
+	 */
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		System.out.println("the method is invoked is " + method.getName());
