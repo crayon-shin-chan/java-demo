@@ -2,9 +2,6 @@ package czy.demo.reflect.proxy;
 
 import java.lang.reflect.Proxy;
 
-import czy.demo.reflect.proxy.Person;
-import czy.demo.reflect.proxy.PersonImpl;
-import czy.demo.reflect.proxy.PersonInvocationHandler;
 
 import java.lang.reflect.InvocationHandler;
 
@@ -15,7 +12,7 @@ public class ProxyClassTest {
 		/* 调用处理器 */
 		PersonInvocationHandler invocatioHandler = new PersonInvocationHandler();
 
-		/* 获取代理类com.sun.proxy.$Proxy0 */
+		/* 获取代理类com.sun.proxy.$Proxy0,这个类是所有代理在运行时生成的类,实现了指定接口,代理类创建之后就成为了常规类 */
 		Class proxyClass = Proxy.getProxyClass(PersonImpl.class.getClassLoader(), PersonImpl.class.getInterfaces());
 
 		/* 生成代理对象 */
