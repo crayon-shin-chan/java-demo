@@ -1,4 +1,4 @@
-package czy.demo.awt;
+package czy.demo.swing;
 
 import javax.swing.*;
 import java.awt.*;
