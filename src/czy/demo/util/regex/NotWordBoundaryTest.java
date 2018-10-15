@@ -3,15 +3,15 @@ package czy.demo.util.regex;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/* \\w匹配任何字类字符，包括下划线,与"[A-Za-z0-9_]"等效,\\b匹配一个单词的边界，其本身不是任何字符，而是一个单词字符与空白之间的边界，既不是字符也不是空白 */
-public class WordBoundaryTest {
+/* 非单词边界匹配，本身不是任何字符，而是代表一个字符与字符之间的边界 */
+public class NotWordBoundaryTest {
 
     public static void main(String[] args){
 
         String content = "abab ";
 
-        /* 由于\\b代表单词边界，则捕获abab */
-        String regex = "^(.*ab\\b).*$";
+        /* 由于\\B代表非单词边界，此处匹配ab */
+        String regex = "^(.*ab\\B).*$";
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(content);
 
