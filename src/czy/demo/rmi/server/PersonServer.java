@@ -13,8 +13,8 @@ public class PersonServer {
         PersonImpl zhangsan = new PersonImpl("张三");
         PersonImpl lisi = new PersonImpl("李四");
         Context context = new InitialContext();
-        context.bind(Person.url+"zhangsan",zhangsan);
-        context.bind(Person.url+"lisi",lisi);
+        context.bind("rmi:zhangsan",zhangsan);
+        context.bind("rmi:lisi",lisi);
         System.out.println("注册表服务已启动");
 
     }
