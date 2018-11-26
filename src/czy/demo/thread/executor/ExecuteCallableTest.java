@@ -12,7 +12,6 @@ public class ExecuteCallableTest {
 
     private static final Logger logger = Logger.getLogger(ExecuteCallableTest.class.getName());
 
-
     public static void main(String[] args)throws Exception{
         ExecutorService executor = Executors.newSingleThreadExecutor();
 
