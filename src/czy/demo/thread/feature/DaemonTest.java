@@ -1,19 +1,21 @@
-package czy.demo.thread;
+package czy.demo.thread.feature;
 
 import java.util.Date;
 
-public class RelationTest {
+public class DaemonTest {
 
-    /* 经测试，父线程退出，子线程依然运行，说明子线程不依赖于父线程存在 */
+    /* 经测试，子线程设置为守护线程时，父线程退出，子线程立即退出 */
     public static void main(String[] args)throws Exception{
-        new Thread(()->{
+        Thread thread = new Thread(()->{
             while(true){
                 try{
                     Thread.sleep(1000);
                     System.out.println("子线程依然在运行："+new Date().toString());
                 }catch(Exception ex){ }
             }
-        }).start();
+        });
+        thread.setDaemon(true);
+        thread.start();
         Thread.sleep(10000);
         System.out.println("父线程即将退出："+new Date().toString());
     }

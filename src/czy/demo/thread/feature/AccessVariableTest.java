@@ -1,4 +1,4 @@
-package czy.demo.thread;
+package czy.demo.thread.feature;
 
 /* 线程访问变量测试 */
 public class AccessVariableTest {

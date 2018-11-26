@@ -1,4 +1,4 @@
-package czy.demo.thread;
+package czy.demo.thread.feature;
 
 import java.util.Date;
 import java.util.concurrent.Callable;

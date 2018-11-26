@@ -1,4 +1,4 @@
-package czy.demo.thread;
+package czy.demo.thread.status;
 
 import java.util.Date;
 
