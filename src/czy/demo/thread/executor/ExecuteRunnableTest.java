@@ -5,10 +5,10 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.logging.Logger;
 
-public class SimpleTest {
+public class ExecuteRunnableTest {
 
 
-    private static final Logger logger = Logger.getLogger(SimpleTest.class.getName());
+    private static final Logger logger = Logger.getLogger(ExecuteRunnableTest.class.getName());
 
     public static void main(String[] args)throws Exception{
 
