@@ -9,10 +9,7 @@ public class CalendarTest {
 
     public static void main(String[] args){
         Calendar cal = Calendar.getInstance();
-        Calendar cal1 = Calendar.getInstance(TimeZone.getDefault());
-        Calendar cal2 = Calendar.getInstance(Locale.getDefault());
         Set<String> types = Calendar.getAvailableCalendarTypes();
-        Locale[] locales = Calendar.getAvailableLocales();
 
         /* 可用的日历类型：格雷格里历、佛教历、日本历 */
         say("可用的日历类型为：");
@@ -20,14 +17,6 @@ public class CalendarTest {
             say("   "+s);
         }
         say("");
-
-        /*
-        say("可用的Locale类型为：");
-        for(Locale locale:locales){
-            say("   "+locale);
-        }
-        say("");
-        */
         say("得到的时间为："+cal.getTime());
         say("得到的时区为："+cal.getTimeZone());
         say("得到的时间戳为："+cal.getTimeInMillis());
