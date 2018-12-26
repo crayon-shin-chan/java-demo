@@ -1,9 +1,6 @@
 package czy.demo.util.date;
 
-import java.util.Calendar;
-import java.util.Locale;
-import java.util.Set;
-import java.util.TimeZone;
+import java.util.*;
 
 public class CalendarTest {
 
@@ -24,6 +21,10 @@ public class CalendarTest {
         say("一周的第一天为："+cal.getFirstDayOfWeek());
         say("年份为："+cal.getWeekYear());
         say("一年得周数为："+cal.getWeeksInWeekYear());
+
+        Calendar calendar = new GregorianCalendar(2018,1 ,1 );
+        say("时间为："+calendar.getTime().toString());
+
     }
 
     public static void say(String s){
