@@ -1,6 +1,6 @@
 package czy.demo.thread.concurrent.print;
 
-public class PrintThreadTest {
+public class Main {
 
     /**
      * 打印数量较少，为100左右时，顺序打印
