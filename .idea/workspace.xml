@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/czy/demo/reflect/method/Test.java" line="14" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a28968-2849-421d-8d10-2819b09bba8f" name="Default" comment="rename">
-      <change afterPath="$PROJECT_DIR$/src/czy/demo/thread/concurrent/gate/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/czy/demo/thread/concurrent/gate/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/czy/demo/thread/concurrent/gate/UserThread.java" afterDir="false" />
+    <list default="true" id="b0a28968-2849-421d-8d10-2819b09bba8f" name="Default" comment="Gate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,17 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/czy/demo/thread/concurrent/gate/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -182,7 +169,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/czy/桌面/Java-demo/src/czy/demo/crypto/hash/Sha1Test.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546322894865" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546327836444" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -333,7 +320,7 @@
       <workItem from="1531640762424" duration="1638000" />
       <workItem from="1546260620609" duration="2731000" />
       <workItem from="1546319816896" duration="1046000" />
-      <workItem from="1546321282408" duration="1612000" />
+      <workItem from="1546321282408" duration="2231000" />
     </task>
     <task id="LOCAL-00001" summary="修改标识符测试类">
       <created>1531116760030</created>
@@ -433,11 +420,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546321969797</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Gate">
+      <created>1546322908891</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1546322908891</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54675000" />
+    <option name="totallyTimeSpent" value="55294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,7 +443,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="255" y="60" width="1224" height="799" extended-state="0" />
+    <frame x="255" y="60" width="1224" height="799" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.24914384" />
@@ -541,7 +535,8 @@
     <MESSAGE value="ThreadFactoryTest" />
     <MESSAGE value="SleepTest" />
     <MESSAGE value="rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename" />
+    <MESSAGE value="Gate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gate" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
