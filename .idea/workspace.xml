@@ -4,9 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/src/czy/demo/reflect/method/Test.java" line="14" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a28968-2849-421d-8d10-2819b09bba8f" name="Default" comment="Gate">
-      <change afterPath="$PROJECT_DIR$/src/czy/demo/util/collection/IterableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/czy/demo/util/date/CalendarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/czy/demo/util/date/CalendarTest.java" afterDir="false" />
+    <list default="true" id="b0a28968-2849-421d-8d10-2819b09bba8f" name="Default" comment="Iterable">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/czy/demo/util/collection/iterator/ForEachTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/czy/demo/util/collection/iterator/IteratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/czy/demo/util/collection/iterator/RemoveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,15 +18,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="java-demo" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/czy/demo/util/collection/IterableTest.java">
+        <entry file="file://$PROJECT_DIR$/src/czy/demo/util/collection/iterator/RemoveTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+            <state relative-caret-position="69">
+              <caret line="10" column="95" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/dev/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="175" column="7" lean-forward="true" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
+              <folding>
+                <element signature="e#6283#6284#0" expanded="true" />
+                <element signature="e#6351#6352#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,10 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/czy/demo/reflect/field/Test.java" />
-        <option value="$PROJECT_DIR$/src/czy/demo/reflect/method/Test.java" />
-        <option value="$PROJECT_DIR$/src/czy/demo/reflect/constructor/Test.java" />
-        <option value="$PROJECT_DIR$/src/czy/demo/reflect/annotation/simple/package-info.java" />
         <option value="$PROJECT_DIR$/src/czy/demo/reflect/annotation/simple/ClassAnnotation.java" />
         <option value="$PROJECT_DIR$/src/czy/demo/reflect/annotation/simple/ConstructorAnnotation.java" />
         <option value="$PROJECT_DIR$/src/czy/demo/reflect/annotation/simple/FieldAnnotation.java" />
@@ -99,6 +114,10 @@
         <option value="$PROJECT_DIR$/src/czy/demo/thread/concurrent/gate/Gate.java" />
         <option value="$PROJECT_DIR$/src/czy/demo/thread/concurrent/gate/Main.java" />
         <option value="$PROJECT_DIR$/src/czy/demo/util/collection/IterableTest.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/util/collection/IteratorTest.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/util/collection/iterator/ForEachTest.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/util/collection/iterator/IteratorTest.java" />
+        <option value="$PROJECT_DIR$/src/czy/demo/util/collection/iterator/RemoveTest.java" />
       </list>
     </option>
   </component>
@@ -116,10 +135,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="637" />
-    <option name="y" value="150" />
-    <option name="width" value="3060" />
-    <option name="height" value="1998" />
+    <option name="x" value="37" />
+    <option name="y" value="6" />
+    <option name="width" value="1943" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -130,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -157,10 +175,28 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="iterator" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -176,7 +212,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,14 +226,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IterableTest">
-    <configuration name="DefaultThreadFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.thread.factory.DefaultThreadFactory" />
+  <component name="RunManager" selected="Application.RemoveTest">
+    <configuration name="WelcomeApplet" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.applet.WelcomeApplet" />
+      <module name="Java-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForEachTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.util.collection.iterator.ForEachTest" />
       <module name="Java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="czy.demo.thread.factory.*" />
+          <option name="PATTERN" value="czy.demo.util.collection.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,7 +254,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="czy.demo.util.collection.*" />
+          <option name="PATTERN" value="czy.demo.util.collection.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,13 +262,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.thread.concurrent.gate.Main" />
+    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.util.collection.iterator.IteratorTest" />
       <module name="Java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="czy.demo.thread.concurrent.gate.*" />
+          <option name="PATTERN" value="czy.demo.util.collection.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,27 +276,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.thread.concurrent.print.Main" />
+    <configuration name="RemoveTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="czy.demo.util.collection.iterator.RemoveTest" />
       <module name="Java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="czy.demo.thread.concurrent.print.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SleepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.demo.thread.status.SleepTest" />
-      <module name="Java-demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="czy.demo.thread.status.*" />
+          <option name="PATTERN" value="czy.demo.util.collection.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,19 +311,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.DefaultThreadFactory" />
-      <item itemvalue="Application.SleepTest" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.IterableTest" />
+      <item itemvalue="Applet.WelcomeApplet" />
+      <item itemvalue="Application.IteratorTest" />
+      <item itemvalue="Application.ForEachTest" />
+      <item itemvalue="Application.RemoveTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveTest" />
+        <item itemvalue="Application.IteratorTest" />
+        <item itemvalue="Application.ForEachTest" />
+        <item itemvalue="Applet.WelcomeApplet" />
         <item itemvalue="Application.IterableTest" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SleepTest" />
-        <item itemvalue="Application.DefaultThreadFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -320,6 +349,7 @@
       <workItem from="1546260620609" duration="2731000" />
       <workItem from="1546319816896" duration="1046000" />
       <workItem from="1546321282408" duration="2231000" />
+      <workItem from="1546405571569" duration="1699000" />
     </task>
     <task id="LOCAL-00001" summary="修改标识符测试类">
       <created>1531116760030</created>
@@ -426,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546322908891</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Iterable">
+      <created>1546399951227</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1546399951227</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55723000" />
+    <option name="totallyTimeSpent" value="57513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -442,10 +479,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="30" y="5" width="1554" height="882" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.25067025" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.2540107" />
       <window_info id="Structure" order="1" sideWeight="0.5023328" side_tool="true" weight="0.2089041" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -455,7 +492,7 @@
       <window_info id="Web" order="7" side_tool="true" weight="0.3299356" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49407408" weight="0.3903577" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49407408" visible="true" weight="0.4088398" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -466,7 +503,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" sideWeight="0.49958265" weight="0.27638888" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4977778" weight="0.32302937" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4977778" weight="0.3218232" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24980545" />
@@ -543,6 +580,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改标识符测试类" />
@@ -561,20 +612,14 @@
     <MESSAGE value="SleepTest" />
     <MESSAGE value="rename" />
     <MESSAGE value="Gate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gate" />
+    <MESSAGE value="Iterable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iterable" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/czy/demo/thread/SimpleTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/czy/demo/thread/SleepTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/czy/demo/thread/ProformanceTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/czy/demo/thread/ConcurrentTest.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Object.java" />
-    <entry file="file://$PROJECT_DIR$/src/czy/demo/thread/SynchronizeTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/czy/demo/thread/WaitTest.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Date.java" />
     <entry file="file://$PROJECT_DIR$/src/czy/demo/date/DateTest.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/sun/util/locale/provider/LocaleProviderAdapter.class" />
@@ -717,8 +762,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/czy/demo/util/collection/IterableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        <state relative-caret-position="161">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/applet/WelcomeApplet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/util/collection/iterator/ForEachTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/util/collection/iterator/IteratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="23" column="57" selection-start-line="9" selection-start-column="8" selection-end-line="23" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/dev/Java/jdk1.8.0_181/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="161" column="5" lean-forward="true" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
+          <folding>
+            <element signature="e#5343#5344#0" expanded="true" />
+            <element signature="e#5400#5401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/dev/Java/jdk1.8.0_181/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="3811" column="30" lean-forward="true" selection-start-line="3811" selection-start-column="30" selection-end-line="3811" selection-end-column="30" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#177410#177411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/dev/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="175" column="7" lean-forward="true" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/czy/demo/util/collection/iterator/RemoveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="10" column="95" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
