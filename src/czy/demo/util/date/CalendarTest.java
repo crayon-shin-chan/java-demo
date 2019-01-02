@@ -22,7 +22,7 @@ public class CalendarTest {
         say("年份为："+cal.getWeekYear());
         say("一年得周数为："+cal.getWeeksInWeekYear());
 
-        Calendar calendar = new GregorianCalendar(2018,1 ,1 );
+        Calendar calendar = new GregorianCalendar(2018,1 ,0 );
         say("时间为："+calendar.getTime().toString());
 
     }
