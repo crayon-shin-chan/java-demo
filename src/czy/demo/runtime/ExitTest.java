@@ -11,7 +11,6 @@ public class ExitTest {
             say(i);
             if(i==k){
                 System.out.println("准备退出");
-
                 /* 以指定的状态码退出进程 */
                 Runtime.getRuntime().exit(5);
             }

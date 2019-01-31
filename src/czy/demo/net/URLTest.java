@@ -11,8 +11,6 @@ public class URLTest {
 
     public static void main(String[] args)throws Exception{
         get("https://www.baidu.com/");
-
-
     }
 
     public static void get(String path)throws Exception{
