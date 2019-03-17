@@ -26,8 +26,7 @@ public class SelectSort {
 
         /* 这里的基本思路是一遍一遍的查找最大值
          * 每一遍获取一个范围内的最大值的下标，然后将最大值与这个范围头部元素交换
-         *
-         * */
+         */
         for (int i = arr.length-1; i>0; i--) {
             int max = i;
             for (int j = 0; j < i; j++) {

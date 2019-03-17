@@ -4,7 +4,6 @@ import java.io.InputStream;
 
 public class ExecTest {
 
-
     public static void main(String[] args)throws Exception{
 
         /* java的运行时执行命令获取一个Process对象，通过Process可以获取输入、输出流 */
@@ -27,6 +26,5 @@ public class ExecTest {
 
     public static void say(String s){
         System.out.println(s);
-
     }
 }

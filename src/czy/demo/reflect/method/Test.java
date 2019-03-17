@@ -25,6 +25,10 @@ public class Test {
         return i+10;
     }
 
+    public void throwing(){
+        throw  new RuntimeException("hehe");
+    }
+
     public static void main(String[] args) throws NoSuchMethodException,IllegalAccessException,InvocationTargetException {
 
         /* 获取方法列表，获取不到private标识的方法 */
@@ -72,6 +76,13 @@ public class Test {
         talk.invoke(new Test());
         Method hou = Test.class.getMethod("hou");
         hou.invoke(null);
+        Method throwing = Test.class.getDeclaredMethod("throwing");
+        try {
+            throwing.invoke(new Test());
+        }catch (Exception ex){
+            System.out.println("抛出了异常："+ex.getCause().getMessage());
+            ex.printStackTrace();
+        }
     }
 
     public String toString(){
