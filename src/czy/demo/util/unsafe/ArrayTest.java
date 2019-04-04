@@ -21,21 +21,19 @@ public class ArrayTest {
     }
 
     public static void main(String[] args)throws Exception{
-
-        int[] arr = new int[]{12,54,23,7};
+        int[] arr = new int[]{12,54,23,7,89};
         printArray(arr);
         /* 获取并且设置指定字节偏移处元素 */
         U.getAndSetInt(arr,16L,1000);
         printArray(arr);
-
     }
 
     /*
      * 打印出数组元素
      */
     private static void printArray(int[] arr){
-        /* 第一个元素的偏移为16字节，不清楚为什么，每隔四个字节为一个int */
-        for(int i=16;i<32;i+=4){
+        /* 第一个元素的偏移为16字节，为int数组的基本偏移，每隔四个字节为一个int */
+        for(int i=16;i<36;i+=4){
             System.out.println("数组偏移"+i+"处为："+U.getInt(arr,(long)i));
         }
     }
