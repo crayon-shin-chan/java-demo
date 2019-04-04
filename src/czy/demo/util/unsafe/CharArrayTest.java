@@ -7,7 +7,6 @@ import java.lang.reflect.Field;
 /* 字符数组测试 */
 public class CharArrayTest {
 
-
     private static Unsafe U;
 
     static {
