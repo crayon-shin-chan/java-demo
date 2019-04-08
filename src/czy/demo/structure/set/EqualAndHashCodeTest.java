@@ -23,6 +23,10 @@ public class EqualAndHashCodeTest {
         /* age相等，覆盖 */
         set.add(new User("王五",1));
         System.out.println(set);
+
+        /* 移除元素时也是根据hashCode与equals操作的 */
+        set.remove(new User("黑六",1));
+        System.out.println(set);
     }
 
     private static class User{
