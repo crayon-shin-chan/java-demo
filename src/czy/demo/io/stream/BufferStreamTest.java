@@ -14,20 +14,16 @@ public class BufferStreamTest {
         /* 60毫秒 */
         say("使用普通文件流读取文件：");
         Date date1 = new Date();
-        say("开始时间："+date1.getTime());
-        read1("src/czy/demo/stream/BufferStreamTest.java");
+        read1("src/czy/demo/io/stream/BufferStreamTest.java");
         Date date2 = new Date();
-        say("结束时间："+date2.getTime());
         say("耗时："+(date2.getTime()-date1.getTime())+"毫秒");
         say("");
 
         /* 1毫秒 */
         say("使用缓冲流读取文件：");
         Date date3 = new Date();
-        say("开始时间："+date3.getTime());
-        read2("src/czy/demo/stream/BufferStreamTest.java");
+        read2("src/czy/demo/io/stream/BufferStreamTest.java");
         Date date4 = new Date();
-        say("结束时间："+date4.getTime());
         say("耗时："+(date4.getTime()-date3.getTime())+"毫秒");
         say("");
 
@@ -36,26 +32,22 @@ public class BufferStreamTest {
         /* 21毫秒 */
         say("使用普通文件流写入文件：");
         Date date5 = new Date();
-        say("开始时间："+date5.getTime());
         write1("a.txt",content);
         Date date6 = new Date();
-        say("结束时间："+date6.getTime());
         say("耗时："+(date6.getTime()-date5.getTime())+"毫秒");
         say("");
 
         /* 4毫秒 */
         say("使用缓冲流写入文件：");
         Date date7 = new Date();
-        say("开始时间："+date7.getTime());
         write2("b.txt",content);
         Date date8 = new Date();
-        say("结束时间："+date8.getTime());
         say("耗时："+(date8.getTime()-date7.getTime())+"毫秒");
         say("");
 
     }
 
-    /* 使用缓冲流 */
+    /* 使用普通流读取 */
     public static void read1(String path)throws IOException {
         InputStream in = new FileInputStream(path);
         byte[] buffer = new byte[1];
@@ -64,7 +56,7 @@ public class BufferStreamTest {
         in.close();
     }
 
-    /* 一次读取一个字节 */
+    /* 使用缓冲流读取 */
     public static void read2(String path)throws IOException {
         InputStream in = new BufferedInputStream(new FileInputStream(path), 1024);
         byte[] buffer = new byte[1];
@@ -73,7 +65,7 @@ public class BufferStreamTest {
         in.close();
     }
 
-    /* 一次写入一个字节 */
+    /* 使用普通流写入 */
     public static void write1(String path,String content)throws IOException{
         OutputStream out = new FileOutputStream(path);
         for(byte b:content.getBytes()){
@@ -82,7 +74,7 @@ public class BufferStreamTest {
         out.close();
     }
 
-    /* 使用缓冲流 */
+    /* 使用缓冲流写入 */
     public static void write2(String path,String content)throws IOException{
         OutputStream out = new BufferedOutputStream(new FileOutputStream(path),1048);
         for(byte b:content.getBytes()){
