@@ -15,13 +15,13 @@ public class SynchronizeTest {
 
     public static void main(String[] args){
         System.out.println("开始时间为："+new Date().toString());
-        for(int i=0;i<100;i++){
+        for(int i=0;i<1000000;i++){
             new Thread(()->{
-                //general();
+                general();
                 //methodSync();
                 //classSync();
                 //objSync();
-                lockSync();
+                //lockSync();
             }).start();
         }
 

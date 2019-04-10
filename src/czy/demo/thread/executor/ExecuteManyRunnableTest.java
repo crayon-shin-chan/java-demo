@@ -17,10 +17,8 @@ public class ExecuteManyRunnableTest {
 
     private static final Integer[] arr = {0,1,2,3,4,5,6,7,8,9,10};
 
-
     public static void main(String[] args)throws Exception{
         ExecutorService executor = Executors.newSingleThreadExecutor();
-
         Object[] callables = Arrays.stream(arr).map((final Integer i)->new Callable<Integer>() {
                     @Override
                     public Integer call() throws Exception {
