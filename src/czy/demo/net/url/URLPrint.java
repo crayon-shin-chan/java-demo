@@ -25,6 +25,7 @@ public class URLPrint {
         say("URL用户信息为："+url.getUserInfo());
 
         URLConnection con = url.openConnection();
+        say("打开连接类型为："+con.getClass().getName());
         say("连接之前是否可输入："+con.getDoInput());
         say("连接之前是否可输出："+con.getDoOutput());
 
