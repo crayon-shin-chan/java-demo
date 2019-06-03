@@ -22,7 +22,7 @@ public class ChatClient {
         String line ;
         /* 从socket读取一行，向控制台写一行 */
         while ((line = reader.readLine())!=null){
-            System.out.println("接收到网络数据："+line);
+            /* 这边输出也要flush */
             console.write(line);
             console.flush();
         }
@@ -45,6 +45,7 @@ public class ChatClient {
                 while (true){
                     String line = scanner.nextLine();
                     System.out.println("控制台输入"+line);
+                    /* 读取数据使用readLine，所以这里必须添加换行符 */
                     writer.write(line+"\n");
                     /* 这里写数据之后必须立即调用flush，否则会等待缓冲区填满 */
                     writer.flush();
