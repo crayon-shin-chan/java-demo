@@ -1,4 +1,4 @@
-package czy.demo.net;
+package czy.demo.net.url;
 
 import java.io.BufferedInputStream;
 import java.net.URL;
@@ -7,22 +7,21 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-public class URLTest {
+public class URLPrint {
 
-    public static void main(String[] args)throws Exception{
-        get("https://www.baidu.com/");
-    }
-
-    public static void get(String path)throws Exception{
-
-        URL url = new URL(path);
+    public static void print(URL url)throws Exception{
+        /* path为域名端口之后部分 */
         say("URL路径为："+url.getPath());
+        /* 授权包含用户密码、域名端口 */
         say("URL授权为："+url.getAuthority());
+        /* 文件为域名后面部分 */
         say("URL文件为："+url.getFile());
         say("URL域名为："+url.getHost());
         say("URL协议为："+url.getProtocol());
+        /* 查询字符串为问号后面部分 */
         say("URL查询字符串为："+url.getQuery());
         say("URL引用为："+url.getRef());
+        /* 用户信息为user:password */
         say("URL用户信息为："+url.getUserInfo());
 
         URLConnection con = url.openConnection();
@@ -42,7 +41,7 @@ public class URLTest {
 
         /* 获取到的响应头有这样一条null:HTTP/1.1 200，即响应码与协议也是在响应头中的 */
         say("获取到响应头为：");
-        Map<String,List<String>> headers = con.getHeaderFields();
+        Map<String, List<String>> headers = con.getHeaderFields();
         for(Map.Entry<String,List<String>> entry:headers.entrySet()){
             StringBuilder builder = new StringBuilder(entry.getKey()+":");
             for(String s:entry.getValue()){
@@ -59,7 +58,6 @@ public class URLTest {
             say(new String(buffer,0,length));
         }
     }
-
 
     public static void say(Object o ){
         System.out.println(o);
