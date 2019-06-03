@@ -1,4 +1,4 @@
-package czy.demo.net;
+package czy.demo.net.http;
 
 import java.io.BufferedOutputStream;
 import java.io.OutputStream;
