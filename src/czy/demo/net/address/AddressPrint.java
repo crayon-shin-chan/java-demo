@@ -25,13 +25,13 @@ public class AddressPrint {
                 builder.append(ips[i] & 255);
             }
         }
-        System.out.println("ip地址为："+builder.toString());
+        say("字节拼接的ip地址为："+builder.toString());
         say("是否为本地local地址："+address.isAnyLocalAddress());
-        say(address.isLinkLocalAddress());
+        say("是否为链接本地地址："+address.isLinkLocalAddress());
         say("是否是本地环回地址："+address.isLoopbackAddress());
         say("2000毫秒是否可达："+address.isReachable(2000));
         say("是否为多播地址："+address.isMulticastAddress());
-        say(""+address.isSiteLocalAddress());
+        say("是否为站点本地地址："+address.isSiteLocalAddress());
     }
 
     private static void say(Object o){
