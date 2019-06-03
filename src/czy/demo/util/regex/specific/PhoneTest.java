@@ -1,8 +1,5 @@
 package czy.demo.util.regex.specific;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 /* 手机号正则匹配 */
 public class PhoneTest {
 

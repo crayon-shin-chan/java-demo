@@ -1,6 +1,5 @@
 package czy.demo.structure.set;
 
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 

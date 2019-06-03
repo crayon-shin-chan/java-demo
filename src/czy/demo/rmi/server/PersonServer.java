@@ -1,7 +1,5 @@
 package czy.demo.rmi.server;
 
-import czy.demo.rmi.Person;
-
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;

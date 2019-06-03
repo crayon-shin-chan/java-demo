@@ -1,6 +1,7 @@
 package czy.demo.util.file;
 
-import java.nio.file.*;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 /* Path代表了文件路径 */
 public class PathTest {

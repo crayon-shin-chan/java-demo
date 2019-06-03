@@ -1,7 +1,5 @@
 package czy.demo.swing.color;
 
-import czy.demo.swing.graphics.DrawTest;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.Ellipse2D;

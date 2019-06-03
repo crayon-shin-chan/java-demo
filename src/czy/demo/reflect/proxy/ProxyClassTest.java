@@ -1,9 +1,7 @@
 package czy.demo.reflect.proxy;
 
-import java.lang.reflect.Proxy;
-
-
 import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Proxy;
 
 public class ProxyClassTest {
 

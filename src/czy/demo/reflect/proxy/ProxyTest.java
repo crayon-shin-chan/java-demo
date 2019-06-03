@@ -2,10 +2,6 @@ package czy.demo.reflect.proxy;
 
 import java.lang.reflect.Proxy;
 
-import czy.demo.reflect.proxy.Person;
-import czy.demo.reflect.proxy.PersonImpl;
-import czy.demo.reflect.proxy.PersonInvocationHandler;
-
 /* 直接创建代理对象 */
 public class ProxyTest {
 

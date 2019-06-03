@@ -3,8 +3,6 @@ package czy.demo.reflect.proxy;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
-import czy.demo.reflect.proxy.PersonImpl;
-
 /* 调用处理器,创建代理对象时使用 */
 public class PersonInvocationHandler implements InvocationHandler {
 
