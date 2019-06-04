@@ -69,6 +69,7 @@ public class DomTest {
         Transformer transformer = TransformerFactory.newInstance().newTransformer();
         transformer.setOutputProperty(OutputKeys.INDENT, "yes");
         transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
+        /* 将数据由Source转换为Result */
         transformer.transform(oldData, newData);
         System.out.println(newData.getWriter());
 

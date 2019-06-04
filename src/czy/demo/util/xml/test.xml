@@ -1,20 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--测试想ml文件-->
+
 <test>
     <!--我是注释一，在book上-->
-    <book year="2000">
+    <book id="1" year="2000">
         <title>   诛仙   </title>
         <author>萧鼎</author>
         <publisher>幻剑书盟</publisher>
         <price>21</price>
     </book>
-    <book year="2005">
+    <book id="2" year="2005">
         <!--我是注释二，在title上-->
         <title>   搜神记   </title>
         <author>树下野狐</author>
         <publisher>天下书盟</publisher>
         <price>25</price>
     </book>
-    <book year="1996">
+    <book id="3" year="1996">
         <title>   风姿物语   </title>
         <author><!--我是注释三，在author中-->罗森</author>
         <publisher>三联</publisher>
