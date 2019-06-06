@@ -6,7 +6,7 @@ import java.nio.ByteBuffer;
 public class HeapByteBufferTest {
 
     public static void main(String[] args){
-        ByteBuffer buffer = ByteBuffer.allocate(20);
+        ByteBuffer buffer = ByteBuffer.allocate(2000);
         for(int i=0;i<buffer.limit();i+=2){
             buffer.putChar(i,(char)('a'+i));
         }
