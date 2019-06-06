@@ -6,6 +6,7 @@ import java.util.Locale;
 public class DefaultLocale {
 
     public static void main(String[] args){
+
         System.out.println("默认本地化对象为："+ Locale.getDefault().toString());
     }
 
