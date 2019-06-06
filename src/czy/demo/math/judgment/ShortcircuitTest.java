@@ -1,4 +1,4 @@
-package czy.demo.util.math.judgment;
+package czy.demo.math.judgment;
 
 /**
  * if后判断表达式，短路测试

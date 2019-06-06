@@ -1,4 +1,4 @@
-package czy.demo.util.math.calculation;
+package czy.demo.math.calculation;
 
 public class TrigonometricFunctionTest {
 

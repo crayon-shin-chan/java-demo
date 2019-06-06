@@ -1,4 +1,4 @@
-package czy.demo.util.math.calculation;
+package czy.demo.math.calculation;
 
 /**
  * 加减乘除计算时,类型提升测试

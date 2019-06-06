@@ -1,4 +1,4 @@
-package czy.demo.util.math.random;
+package czy.demo.math.random;
 
 import java.util.Random;
 
