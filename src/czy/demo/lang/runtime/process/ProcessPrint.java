@@ -10,7 +10,7 @@ public class ProcessPrint {
         say("进程是否活动："+active);
         if(active){
             InputStream in = process.getInputStream();
-            BufferedReader reader = new BufferedReader(new InputStreamReader(new BufferedInputStream(in)));
+            BufferedReader reader = new BufferedReader(new InputStreamReader(new BufferedInputStream(in),"GBK"));
             String line = null;
             while ((line = reader.readLine())!=null){
                 say(line);
