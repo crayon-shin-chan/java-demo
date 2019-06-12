@@ -1,12 +1,12 @@
 package czy.demo.lang.classloader;
 
+
 /**
  * 类加载器关系测试
  */
 public class RelationTest {
 
     public static void main(String[] args){
-
         ClassLoader current = Thread.currentThread().getContextClassLoader();
         ClassLoader ext = current.getParent();
         ClassLoader boot = ext.getParent();
