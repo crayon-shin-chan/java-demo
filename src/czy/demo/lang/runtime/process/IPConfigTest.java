@@ -6,5 +6,4 @@ public class IPConfigTest {
         Process process = Runtime.getRuntime().exec("ipconfig");
         ProcessPrint.print(process);
     }
-
 }

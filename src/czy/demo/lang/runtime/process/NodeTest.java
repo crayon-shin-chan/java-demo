@@ -6,5 +6,4 @@ public class NodeTest {
         Process process = Runtime.getRuntime().exec("node -help");
         ProcessPrint.print(process);
     }
-
 }

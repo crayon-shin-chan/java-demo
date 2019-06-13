@@ -1,6 +1,9 @@
 package czy.demo.lang.runtime.process;
 
-import java.io.*;
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 /* 线程输出打印 */
 public class ProcessPrint {
@@ -17,7 +20,6 @@ public class ProcessPrint {
             }
             say("进程是否活动："+process.isAlive());
         }
-
     }
 
     private static void say(Object o){
