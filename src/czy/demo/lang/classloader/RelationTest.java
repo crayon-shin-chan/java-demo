@@ -3,6 +3,7 @@ package czy.demo.lang.classloader;
 
 /**
  * 类加载器关系测试
+ * AppClassLoader、ExtClassLoader都是sun.misc.Launcher里定义的内部类
  */
 public class RelationTest {
 
