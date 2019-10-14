@@ -6,8 +6,9 @@ package czy.demo.lang.iclass;
  */
 public class PrimitiveClassTest {
 
-    public static void main(String[] args){
+    public static void main(String[] args)throws Exception{
         ClassPrint.print(int.class);
+        ClassPrint.print(Integer.TYPE);
     }
 
 }
