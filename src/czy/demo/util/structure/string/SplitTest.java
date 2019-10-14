@@ -13,6 +13,8 @@ public class SplitTest {
         System.out.println(Arrays.toString("1,2.3,4,5.6'7,0".split(",|\\.")));
         /* 可以使用第二个参数限制分割后的数组长度，如果本来的数组长度大于限制长度，则多余元素会合并为最后一个元素 */
         System.out.println(Arrays.toString("1,2,3,4,5,6,".split(",",3)));
+        /** 可以获取句子中的单词 */
+        System.out.println(Arrays.toString("I am Anna , who are you ?".split("\\s+")));
 
     }
 
