@@ -13,8 +13,4 @@ public class ExitHookTest {
         /* 以指定的状态码退出进程 */
         Runtime.getRuntime().exit(5);
     }
-
-    public static void say(int i){
-        System.out.println("当前数字为："+i);
-    }
 }
